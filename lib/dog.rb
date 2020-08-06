@@ -3,6 +3,7 @@ require "pry"
 class Dog
 
   @@all = []
+  @@name = []
 
 
   attr_accessor :name
@@ -22,7 +23,7 @@ class Dog
   end
 
   def self.print_all
-    self.class_variable_get(@name)
+    @@name
   end
 
 # binding.pry
