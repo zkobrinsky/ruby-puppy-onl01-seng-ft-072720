@@ -22,7 +22,7 @@ class Dog
   end
 
   def self.print_all
-
+    self.class_variable_get(@name)
   end
 
 # binding.pry
