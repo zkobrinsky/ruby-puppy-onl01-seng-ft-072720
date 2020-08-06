@@ -12,7 +12,7 @@ class Dog
     @name = name
     @@all << self
     @@name << name
-    binding.pry
+    # binding.pry
   end
 
   def self.all
