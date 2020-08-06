@@ -31,6 +31,6 @@ end
 
 # maggie = Dog.new("Maggie")
 # willow = Dog.new("Willow")
-# 
+#
 # # puts Dog.all
 # puts maggie
