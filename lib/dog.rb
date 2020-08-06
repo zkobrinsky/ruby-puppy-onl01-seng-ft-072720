@@ -3,11 +3,13 @@ require "pry"
 class Dog
 
   @@all = []
+  @@name =[]
 
   attr_accessor :name
 
   def initialize(name)
     @name = name
+    @@name << name
     @@all << self
   end
 
@@ -17,6 +19,10 @@ class Dog
 
   def self.clear_all
     @@all = []
+  end
+
+  def self.print_all
+    
   end
 
 
