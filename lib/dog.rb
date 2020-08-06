@@ -25,6 +25,6 @@ class Dog
     # puts @@name
   end
 
-
+binding.pry
 
 end
