@@ -23,7 +23,7 @@ class Dog
 
   def self.print_all
     binding.pry
-    puts @@name
+    # puts @@name
   end
 
 
