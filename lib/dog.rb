@@ -25,6 +25,9 @@ class Dog
     # puts @@name
   end
 
-binding.pry
+# binding.pry
 
 end
+
+maggie = Dog.new("Maggie")
+willow = Dog.new("Willow")
