@@ -24,7 +24,7 @@ class Dog
   end
 
   def self.print_all
-    @@name
+    @@name.join
   end
 
 # binding.pry
