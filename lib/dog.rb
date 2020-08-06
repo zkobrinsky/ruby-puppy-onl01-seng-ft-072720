@@ -32,4 +32,4 @@ end
 maggie = Dog.new("Maggie")
 willow = Dog.new("Willow")
 
-Dog.all
+puts Dog.all
